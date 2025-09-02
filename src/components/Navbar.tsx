@@ -1,6 +1,6 @@
 "use client"
 import { UserButton } from '@clerk/nextjs'
-import { CheckSquare, Moon, Sun } from 'lucide-react'
+import {  Moon, Sun } from 'lucide-react'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
