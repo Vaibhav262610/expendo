@@ -44,34 +44,7 @@ const priorityIcons = {
 }
 
 export function TodoManager() {
-  const [todos, setTodos] = useState<Todo[]>([
-    // {
-    //   id: "1",
-    //   title: "Complete project proposal",
-    //   description: "Finish the Q4 project proposal for the new client",
-    //   completed: false,
-    //   priority: "high",
-    //   dueDate: "2024-01-15",
-    //   createdAt: "2024-01-10",
-    // },
-    // {
-    //   id: "2",
-    //   title: "Review team feedback",
-    //   description: "Go through all the feedback from the team meeting",
-    //   completed: true,
-    //   priority: "medium",
-    //   createdAt: "2024-01-09",
-    // },
-    // {
-    //   id: "3",
-    //   title: "Update documentation",
-    //   completed: false,
-    //   priority: "low",
-    //   dueDate: "2024-01-20",
-    //   createdAt: "2024-01-08",
-    // },
-  ])
-
+  const [todos, setTodos] = useState<Todo[]>([])
   const [isAddDialogOpen, setIsAddDialogOpen] = useState(false)
   const [editingTodo, setEditingTodo] = useState<Todo | null>(null)
   const [newTodo, setNewTodo] = useState({
