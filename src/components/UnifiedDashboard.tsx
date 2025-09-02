@@ -212,7 +212,7 @@ export function UnifiedDashboard() {
       <div className="grid gap-4 md:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle className="text-lg">Today's Focus</CardTitle>
+            <CardTitle className="text-lg">Today&apos;s Focus</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
             <div className="flex items-center justify-between p-3 rounded-lg bg-red-50 border border-red-200">

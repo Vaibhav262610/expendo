@@ -37,11 +37,6 @@ const priorityColors = {
   high: "bg-red-100 text-red-800 border-red-200",
 }
 
-const priorityIcons = {
-  low: "🔵",
-  medium: "🟡",
-  high: "🔴",
-}
 
 export function TodoManager() {
   const [todos, setTodos] = useState<Todo[]>([])
